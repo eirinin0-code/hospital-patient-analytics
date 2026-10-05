@@ -43,3 +43,44 @@ Key preparation and analysis steps included:
 - Investigated unusual results rather than accepting aggregate metrics at face value.
 - Examined length-of-stay distributions when certain averages appeared clinically unrealistic.
 - Identified several deterministic relationships in the data, including conditions being assigned exclusively to one gender, supporting the conclusion that the dataset is synthetic.
+
+## Key Findings
+
+### 1. Overall Hospital Performance
+- The dataset contains **984 hospital admissions**.
+- Average hospitalization cost was approximately **8,367.48**.
+- Average length of stay was approximately **37.66 days**.
+- The overall readmission rate was **26.83%**.
+- Average patient satisfaction was **3.60**.
+
+### 2. Conditions Associated with Higher Cost and Longer Stays
+- **Cancer**, **Prostate Cancer**, and **Heart Attack** ranked among the highest conditions for both average hospitalization cost and average length of stay.
+- Cancer recorded the highest average cost at approximately **25,000** and an average stay of **42.65 days**.
+- These results indicate that certain conditions were consistently associated with greater resource use within the dataset.
+
+### 3. Readmission Patterns
+- Readmission rates varied substantially across conditions, with several conditions showing unusually high or low rates.
+- Because many of these rates were extremely deterministic, they were treated cautiously and interpreted as characteristics of the synthetic dataset rather than real-world clinical benchmarks.
+
+### 4. Patient Satisfaction
+- Admissions without readmission had higher average satisfaction (**3.78**) than admissions followed by readmission (**3.11**).
+- Recovered admissions also showed higher average satisfaction (**3.84**) compared with stable outcomes (**3.24**).
+- These relationships indicate association only and should not be interpreted as causal effects.
+
+### 5. Age-Group Patterns
+- Average length of stay increased progressively across older age groups, from **34.50 days** among patients aged 25–34 to **38.93 days** among those aged 65+.
+- Average hospitalization cost generally increased with age, peaking in the **55–64** group at approximately **11,331.88**, before declining in the 65+ group.
+- Readmission rates varied across age groups without following a consistent linear trend.
+
+### 6. Insurance Claim Comparison
+- Admissions without an insurance claim had a slightly higher average cost and readmission rate than admissions where insurance was claimed.
+- Readmission rates were **27.49%** without an insurance claim and **25.64%** with an insurance claim.
+
+### 7. Yearly Trends
+- Average hospitalization cost peaked in **2023** at approximately **9,348.66**, before declining in 2024 and 2025.
+- Readmission rates increased modestly from **24.00% in 2022** to approximately **28.3% by 2024–2025**.
+
+### 8. Dataset Limitations
+- Several conditions were assigned exclusively to one gender.
+- Recovery outcomes and readmission patterns also showed highly deterministic relationships.
+- These findings strongly suggest that the dataset is synthetic and educational, so results should not be interpreted as real-world clinical evidence.
