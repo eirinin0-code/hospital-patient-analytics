@@ -84,3 +84,22 @@ Key preparation and analysis steps included:
 - Several conditions were assigned exclusively to one gender.
 - Recovery outcomes and readmission patterns also showed highly deterministic relationships.
 - These findings strongly suggest that the dataset is synthetic and educational, so results should not be interpreted as real-world clinical evidence.
+
+## Power BI Dashboard
+
+The Power BI dashboard was designed to summarize the main operational and patient-related findings through KPI cards, interactive slicers, and focused visualizations.
+
+The dashboard includes:
+
+- Total admissions
+- Average hospitalization cost
+- Average length of stay
+- Readmission rate
+- Average patient satisfaction
+- Average cost by medical condition
+- Average length of stay by age group
+- Average satisfaction by readmission status
+- Average cost by year
+- Interactive filters for year of admission and medical condition
+
+![Hospital Patient Outcomes & Operational Analysis Dashboard](dashboard.png)
