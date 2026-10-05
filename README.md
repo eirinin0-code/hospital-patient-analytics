@@ -7,3 +7,11 @@ This project analyzes a synthetic hospital patient dataset using SQL and Power B
 The goal was to practice an end-to-end analytics workflow, beginning with data exploration and analysis in SQL and continuing with data preparation, DAX measures, interactive visualizations, and dashboard development in Power BI.
 
 The analysis also included data-quality checks and investigation of unusual patterns in the dataset. Several variables showed highly deterministic relationships, reinforcing the importance of validating analytical findings before interpreting them as real-world healthcare insights.
+
+## Tools Used
+
+- MySQL Workbench
+- SQL
+- Power BI Desktop
+- Power Query
+- DAX
