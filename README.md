@@ -15,3 +15,16 @@ The analysis also included data-quality checks and investigation of unusual patt
 - Power BI Desktop
 - Power Query
 - DAX
+
+## Business Questions
+
+The analysis focused on the following questions:
+
+1. What are the overall hospital admission volume, average cost, average length of stay, readmission rate, and patient satisfaction?
+2. Which medical conditions are associated with the highest average cost and longest hospital stays?
+3. How do readmission rates vary across medical conditions?
+4. Do insurance claims appear to be associated with differences in cost, readmission, or recovery outcomes?
+5. How does patient satisfaction vary by readmission status, outcome, and condition?
+6. How do age groups differ in average length of stay, cost, and readmission rate?
+7. How do average cost, length of stay, and readmission rate change over time?
+8. Are there unusual or deterministic patterns in the dataset that limit real-world interpretation?
