@@ -28,3 +28,18 @@ The analysis focused on the following questions:
 6. How do age groups differ in average length of stay, cost, and readmission rate?
 7. How do average cost, length of stay, and readmission rate change over time?
 8. Are there unusual or deterministic patterns in the dataset that limit real-world interpretation?
+
+## Data Preparation & SQL Analysis
+
+The dataset was first explored and validated in MySQL Workbench before being used in Power BI.
+
+Key preparation and analysis steps included:
+
+- Imported 984 hospital admission records into MySQL.
+- Verified row counts and checked key analytical fields for missing values.
+- Reviewed data types and identified date fields that required conversion during the Power BI preparation stage.
+- Calculated overall KPIs including average length of stay, average total cost, readmission rate, and patient satisfaction.
+- Used `GROUP BY`, `CASE WHEN`, `AVG`, `SUM`, `COUNT`, `MIN`, `MAX`, `ROUND`, and `ORDER BY` to analyze patterns across conditions, insurance status, outcomes, age groups, gender, and admission years.
+- Investigated unusual results rather than accepting aggregate metrics at face value.
+- Examined length-of-stay distributions when certain averages appeared clinically unrealistic.
+- Identified several deterministic relationships in the data, including conditions being assigned exclusively to one gender, supporting the conclusion that the dataset is synthetic.
