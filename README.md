@@ -103,3 +103,19 @@ The dashboard includes:
 - Interactive filters for year of admission and medical condition
 
 ![Hospital Patient Outcomes & Operational Analysis Dashboard](dashboard.png)
+
+## Project Files
+
+- `hospital_patient_analysis.sql` — SQL queries used for data validation, KPI calculations, demographic analysis, readmission analysis, satisfaction analysis, insurance comparisons, and yearly trends.
+- `Hospital_Patient_Analytics.pbix` — Power BI report containing the interactive dashboard, DAX measures, calculated age groups, and slicers.
+- `dashboard.png` — Preview image of the final Power BI dashboard.
+
+## What I Learned
+
+This project strengthened my understanding of SQL aggregation, conditional logic, grouping, and analytical interpretation.
+
+I also gained hands-on experience with Power Query, DAX measures, calculated columns, interactive filtering, and dashboard design in Power BI.
+
+One of the most important lessons from the project was that technically correct calculations do not automatically produce meaningful insights. Several results appeared unusual or clinically unrealistic, which led to additional investigation of the underlying data.
+
+This process highlighted the importance of validating patterns, distinguishing association from causation, and recognizing limitations in synthetic datasets before drawing conclusions.
